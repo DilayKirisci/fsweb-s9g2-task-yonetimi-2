@@ -28,9 +28,9 @@ function App() {
 	}
 
 	return (
-		<div className="app">
+		<div className="app bg-gradient-to-r from-gray-100 to-gray-300">
 			<div className="formColumn">
-				<div className="form-container">
+				<div className="form-container ">
 					<h2>Yeni Task</h2>
 					<TaskHookForm kisiler={team} submitFn={handleTaskSubmit} />
 				</div>
